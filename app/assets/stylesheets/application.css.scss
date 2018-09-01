@@ -37,15 +37,27 @@ h1, h2, h3 {
 // Nav Styles
 .navbar {border:none}
 
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a   {
   color:#fff;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-
   &:hover {
     color:#fff;
     opacity: 0.75;
+  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #34e89e;
   }
 }
 
